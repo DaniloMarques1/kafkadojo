@@ -4,11 +4,11 @@ Imaginemos que tenhamos a seguinte situação, uma aplicação A1 que é a aplic
 de um ecommerce e temos uma aplicação A2 que é um serviço de email. Dessa forma,
 sempre que uma transação ocorrer na aplicação A1, ela irá produzir uma mensagem
 para um tópico que será então consumido pela aplicação A2, que irá enviar um
-email indicandi que a compra foi realizada com sucesso.
+email indicando que a compra foi realizada com sucesso.
 
 Primeiro, é preciso que você faça download do kafka: [aqui](https://kafka.apache.org/downloads)
 Baixe os arquivos que indicam "binary download", após baixar só precisar extrair
-a página, vamos utilizar os arquivos que estão dentro da pasta `bin`.
+para um diretorio, vamos utilizar os arquivos que estão dentro da pasta `bin`.
 
 O Kafka é uma plataforma distribuida, dessa forma, a ideia é termos diversos
 brokers (instâncias) do kafka rodando, com isso é necessário que uma outra
